@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" fill="none">
+  <rect width="1200" height="840" fill="#090A0C"/>
+  <rect x="36" y="36" width="1128" height="768" fill="#131519" stroke="#282B30"/>
+  <path d="M120 620 L480 260 H1080" stroke="#2B3038" stroke-width="44" fill="none"/>
+  <path d="M120 620 L480 260 H1080" stroke="#D7FF48" stroke-width="3" stroke-dasharray="18 14" fill="none"/>
+  <line x1="120" y1="470" x2="1080" y2="470" stroke="#24282F" stroke-width="1"/>
+  <text x="72" y="94" fill="#D7FF48" font-family="monospace" font-size="16" letter-spacing="3">05 // GAME DEVELOPMENT</text>
+  <text x="1128" y="94" text-anchor="end" fill="#A1A4AA" font-family="monospace" font-size="14" letter-spacing="2">FRAME 01 · PLACEHOLDER</text>
+  <text x="86" y="715" fill="#F2F2ED" font-family="sans-serif" font-size="62" font-weight="700">FORMULA 1 RACING</text>
+  <text x="86" y="756" fill="#A1A4AA" font-family="monospace" font-size="16" letter-spacing="2">C++ · JAVASCRIPT · INTERACTIVE GAMEPLAY</text>
+</svg>

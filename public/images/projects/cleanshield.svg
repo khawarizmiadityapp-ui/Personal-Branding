@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" fill="none">
+  <rect width="1200" height="840" fill="#090A0C"/>
+  <rect x="36" y="36" width="1128" height="768" fill="#121618" stroke="#282B30"/>
+  <path d="M600 185 L770 250 V430 C770 555 688 632 600 672 C512 632 430 555 430 430 V250 L600 185 Z" fill="#171D20" stroke="#D7FF48" stroke-width="2"/>
+  <path d="M600 235 L726 284 V422 C726 518 666 579 600 612 C534 579 474 518 474 422 V284 L600 235 Z" fill="#101417" stroke="#2E363B" stroke-width="1.5"/>
+  <text x="72" y="94" fill="#D7FF48" font-family="monospace" font-size="16" letter-spacing="3">04 // MOBILE DEVELOPMENT</text>
+  <text x="1128" y="94" text-anchor="end" fill="#A1A4AA" font-family="monospace" font-size="14" letter-spacing="2">FRAME 01 · PLACEHOLDER</text>
+  <text x="86" y="715" fill="#F2F2ED" font-family="sans-serif" font-size="68" font-weight="700">CLEANSHIELD</text>
+  <text x="86" y="756" fill="#A1A4AA" font-family="monospace" font-size="16" letter-spacing="2">KOTLIN · JETPACK COMPOSE · ANDROID</text>
+</svg>

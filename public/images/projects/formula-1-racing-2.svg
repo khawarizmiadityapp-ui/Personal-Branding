@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" fill="none">
+  <rect width="1200" height="840" fill="#090A0C"/>
+  <rect x="36" y="36" width="1128" height="768" fill="#111317" stroke="#282B30"/>
+  <path d="M160 540 C 340 240, 560 620, 760 300 C 870 140, 1000 220, 1060 360" stroke="#D7FF48" stroke-width="4" fill="none"/>
+  <path d="M160 540 C 340 240, 560 620, 760 300 C 870 140, 1000 220, 1060 360" stroke="#F2F2ED" stroke-opacity="0.2" stroke-width="18" fill="none"/>
+  <text x="72" y="96" fill="#D7FF48" font-family="monospace" font-size="16" letter-spacing="3">FORMULA 1 RACING // TRACK TELEMETRY</text>
+  <text x="1128" y="96" text-anchor="end" fill="#A1A4AA" font-family="monospace" font-size="14" letter-spacing="2">FRAME 02 · PLACEHOLDER</text>
+  <text x="86" y="732" fill="#F2F2ED" font-family="sans-serif" font-size="44" font-weight="700">CIRCUIT GEOMETRY &amp; LOOP</text>
+</svg>

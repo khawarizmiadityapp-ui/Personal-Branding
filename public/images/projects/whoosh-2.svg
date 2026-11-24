@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" fill="none">
+  <rect width="1200" height="840" fill="#090B0E"/>
+  <rect x="36" y="36" width="1128" height="768" fill="#12161E" stroke="#282B30"/>
+  <rect x="140" y="160" width="260" height="480" rx="24" fill="#171C24" stroke="#2F3642" stroke-width="2"/>
+  <rect x="470" y="160" width="260" height="480" rx="24" fill="#171C24" stroke="#D7FF48" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="800" y="160" width="260" height="480" rx="24" fill="#171C24" stroke="#2F3642" stroke-width="2"/>
+  <text x="72" y="96" fill="#D7FF48" font-family="monospace" font-size="16" letter-spacing="3">WHOOSH // MOBILE SCREENS</text>
+  <text x="1128" y="96" text-anchor="end" fill="#A1A4AA" font-family="monospace" font-size="14" letter-spacing="2">FRAME 02 · PLACEHOLDER</text>
+  <text x="86" y="732" fill="#F2F2ED" font-family="sans-serif" font-size="44" font-weight="700">MULTI-SCREEN ARCHITECTURE</text>
+</svg>

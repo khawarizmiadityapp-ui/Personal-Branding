@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" fill="none">
+  <rect width="1200" height="840" fill="#090A0C"/>
+  <rect x="36" y="36" width="1128" height="768" fill="#13171A" stroke="#282B30"/>
+  <g stroke="#262E32" stroke-width="1">
+    <circle cx="600" cy="410" r="240"/>
+    <circle cx="600" cy="410" r="165"/>
+    <circle cx="600" cy="410" r="90"/>
+    <line x1="300" y1="410" x2="900" y2="410"/>
+    <line x1="600" y1="150" x2="600" y2="670"/>
+  </g>
+  <circle cx="600" cy="410" r="14" fill="#D7FF48"/>
+  <text x="72" y="96" fill="#D7FF48" font-family="monospace" font-size="16" letter-spacing="3">CLEANSHIELD // INTERFACE RADAR</text>
+  <text x="1128" y="96" text-anchor="end" fill="#A1A4AA" font-family="monospace" font-size="14" letter-spacing="2">FRAME 02 · PLACEHOLDER</text>
+  <text x="86" y="732" fill="#F2F2ED" font-family="sans-serif" font-size="44" font-weight="700">PROTECTION &amp; STATUS VIEW</text>
+</svg>
