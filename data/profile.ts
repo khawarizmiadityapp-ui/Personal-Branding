@@ -11,9 +11,9 @@ export const profile: ProfileData = {
   location: "Indonesia (Update in data/profile.ts)",
   availability: "Open to collaboration & software engineering opportunities",
   portrait: {
-    src: "/images/profile/developer-portrait.svg",
-    alt: "Editorial portrait placeholder for Khawarizmi Aditya Pratama Putra",
-    caption: "PORTRAIT PLACEHOLDER — REPLACE AT public/images/profile/developer-portrait.svg",
+    src: "/images/profile/my foto gw2.jpeg",
+    alt: "Portrait of Khawarizmi Aditya Pratama Putra",
+    caption: "KHAWARIZMI ADITYA PRATAMA PUTRA // DEVELOPER PORTRAIT",
   },
   about: {
     eyebrow: "02 // ABOUT ME",
@@ -103,8 +103,9 @@ export const profile: ProfileData = {
     socials: [
       {
         label: "GitHub",
-        handle: "Add your GitHub profile URL",
-        placeholder: "github.com/your-username",
+        handle: "@khawarizmiadityapp-ui",
+        href: "https://github.com/khawarizmiadityapp-ui",
+        placeholder: "github.com/khawarizmiadityapp-ui",
       },
       {
         label: "LinkedIn",
@@ -112,9 +113,10 @@ export const profile: ProfileData = {
         placeholder: "linkedin.com/in/your-profile",
       },
       {
-        label: "Instagram / X",
-        handle: "Add optional social profile URL",
-        placeholder: "Add handle in data/profile.ts",
+        label: "Instagram",
+        handle: "@rizmidicaprio_",
+        href: "https://www.instagram.com/rizmidicaprio_/",
+        placeholder: "instagram.com/rizmidicaprio_",
       },
     ],
   },

@@ -11,7 +11,7 @@ import { profile } from "@/data/profile";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
-const HERO_PORTRAIT_PATH = "/images/profile/developer-portrait.png";
+const HERO_PORTRAIT_PATH = profile.portrait.src;
 
 export function HeroSection() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -194,15 +194,34 @@ export function HeroSection() {
           className="relative h-full w-full md:h-[92vh] md:-mb-10 lg:h-[96vh] lg:-mb-12"
         >
           {!portraitMissing ? (
-            <Image
-              src={HERO_PORTRAIT_PATH}
-              alt={`Editorial portrait of ${profile.name}`}
-              fill
-              priority
-              sizes="(max-width: 767px) 92vw, (max-width: 1024px) 50vw, 52vw"
-              onError={() => setPortraitMissing(true)}
-              className="object-contain object-bottom select-none drop-shadow-[0_24px_48px_rgba(0,0,0,0.65)]"
-            />
+            <div
+              className="relative h-full w-full overflow-hidden"
+              style={{
+                WebkitMaskImage:
+                  "radial-gradient(ellipse 72% 82% at 54% 46%, #000 38%, rgba(0,0,0,0.68) 64%, transparent 94%)",
+                maskImage:
+                  "radial-gradient(ellipse 72% 82% at 54% 46%, #000 38%, rgba(0,0,0,0.68) 64%, transparent 94%)",
+              }}
+            >
+              <Image
+                src={HERO_PORTRAIT_PATH}
+                alt={`Editorial portrait of ${profile.name}`}
+                fill
+                priority
+                sizes="(max-width: 767px) 92vw, (max-width: 1024px) 50vw, 52vw"
+                onError={() => setPortraitMissing(true)}
+                className="object-cover object-top select-none brightness-[0.88] contrast-[1.08] saturate-[0.78]"
+              />
+              {/* Soft directional fade on left & top edges for seamless #090A0C blend */}
+              <div
+                className="pointer-events-none absolute inset-0 bg-gradient-to-r from-bg-primary via-transparent to-bg-primary/50"
+                aria-hidden="true"
+              />
+              <div
+                className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-bg-primary/85 to-transparent"
+                aria-hidden="true"
+              />
+            </div>
           ) : (
             /* Frameless Editorial Placeholder when /images/profile/developer-portrait.png is not yet supplied */
             <div className="relative flex h-full w-full flex-col items-center justify-end pb-12 md:items-end md:justify-center md:pr-10 md:pb-0">

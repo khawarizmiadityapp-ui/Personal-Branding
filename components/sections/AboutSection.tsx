@@ -79,7 +79,7 @@ export function AboutSection({ showFullLink = true }: AboutSectionProps) {
                   alt={profile.portrait.alt}
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
-                  className="object-cover"
+                  className="object-cover object-top"
                 />
               </div>
               <div className="border-t border-border-subtle px-4 py-2.5 font-mono text-[10px] uppercase tracking-[0.12em] text-text-secondary">
